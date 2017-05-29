@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            android:id="@+id/aadh"
+            style="@style/text"
+            android:text="Aadhar No :"/>
+        <TextView
+            android:id="@+id/aadh1"
+            style="@style/text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            android:id="@+id/co"
+            style="@style/text"
+            android:text="Farmer Code:"/>
+        <TextView
+            android:id="@+id/co1"
+            style="@style/text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            android:id="@+id/na"
+            style="@style/text"
+            android:text="Farmer Name:"/>
+        <TextView
+            android:id="@+id/na1"
+            style="@style/text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            android:id="@+id/mc"
+            style="@style/text"
+            android:text="Milch Cows:"/>
+        <TextView
+            android:id="@+id/mc1"
+            style="@style/text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            android:id="@+id/mb"
+            style="@style/text"
+            android:text="Milch Buffalos:"/>
+        <TextView
+            android:id="@+id/mb1"
+            style="@style/text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            android:id="@+id/dc"
+            style="@style/text"
+            android:text="Dry Cows:"/>
+        <TextView
+            android:id="@+id/dc1"
+            style="@style/text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            android:id="@+id/db"
+            style="@style/text"
+            android:text="Dry Buffalos:"/>
+        <TextView
+            android:id="@+id/db1"
+            style="@style/text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            android:id="@+id/To"
+            style="@style/text"
+            android:text="Total Animals:"/>
+        <TextView
+            android:id="@+id/to1"
+            style="@style/text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+
+        <TextView
+            android:id="@+id/d"
+            style="@style/text"
+            android:text="Exclusive For Dodla :"/>
+        <TextView
+            android:id="@+id/do1"
+            style="@style/text"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/text"
+        android:id="@+id/button1"
+        android:text="Save"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/text"
+        android:id="@+id/button2"
+        android:text="Cancel"/>
+</LinearLayout>
+</LinearLayout>

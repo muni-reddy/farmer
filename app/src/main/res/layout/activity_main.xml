@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.muni.farmer.MainActivity">
+   <LinearLayout
+    style="@style/layout">
+    <TextView
+   android:id="@+id/aadhar"
+    style="@style/text"
+    android:text="Aadhar No*"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aadhar1"
+        android:maxLength="12"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="14dp"/>
+   </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+        <TextView
+            android:id="@+id/code"
+            style="@style/text"
+            android:text="Farmer Code"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/code1"
+            android:maxLength="12"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="6dp"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/layout">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/text"
+            android:text="Farmer Name*" />
+
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:layout_marginLeft="-3dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout">
+        <TextView
+            android:id="@+id/cows"
+            style="@style/text"
+            android:text="Milch Cows*"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cows1"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="13dp"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+        <TextView
+            android:id="@+id/buffalos"
+            style="@style/text"
+            android:text="Milch Buffalos*"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buffalos1"
+            android:hint="0"
+            android:maxLength="3"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+        <TextView
+            android:id="@+id/drycow"
+            style="@style/text"
+            android:text="Dry Cows*"
+            />
+
+        <EditText
+            android:id="@+id/drycow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="3"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout">
+        <TextView
+            android:id="@+id/drybuf"
+            style="@style/text"
+            android:text="Dry Buffalos*"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drybuf1"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="3"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout">
+        <TextView
+            android:id="@+id/total"
+            style="@style/text"
+            android:text="Total Animals*"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/total1"
+            android:hint="0"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layout"
+        >
+
+        <TextView
+            style="@style/text"
+
+            android:id="@+id/radio"
+            android:text="Exclusive For Dodla*"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/radioGroup"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:id="@+id/radioButton"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/radioButton2"
+                />
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginLeft="130dp"
+        android:hint="Submit"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>
